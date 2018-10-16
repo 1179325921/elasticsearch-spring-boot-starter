@@ -1,0 +1,22 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8771
+  
+spring:
+  application:
+    name: sc-service-goods
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url:  jdbc:mysql://localhost:3306/sc-admin?characterEncoding=utf-8&autoReconnect=true&failOverReadOnly=false
+    username: root
+    password: 123456
+    driver-class-name:  com.mysql.jdbc.Driver
+    druid:
+      connectionErrorRetryAttempts: 0
+      breakAfterAcquireFailure: true
+  redis:
+    cluster:
+      nodes:  192.168.192.130:7000,192.168.192.130:7001,192.168.192.130:7002

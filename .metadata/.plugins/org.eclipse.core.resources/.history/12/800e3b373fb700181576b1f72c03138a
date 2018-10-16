@@ -1,0 +1,17 @@
+package com.ms.application.mapper;
+
+import com.ms.application.pojo.Application;
+
+public interface ApplicationMapper {
+    int deleteByPrimaryKey(Integer incrementId);
+
+    int insert(Application record);
+
+    int insertSelective(Application record);
+
+    Application selectByPrimaryKey(Integer incrementId);
+
+    int updateByPrimaryKeySelective(Application record);
+
+    int updateByPrimaryKey(Application record);
+}

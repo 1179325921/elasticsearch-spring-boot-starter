@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\Administrator\Desktop\ms-applications"/>
+			<item value="F:\第四阶段\cjl-parent"/>
+			<item value="F:\第四阶段\mq\cjl-mq-email"/>
+			<item value="F:\小项目\SpringBoot-vue-master"/>
+			<item value="F:\第四阶段\es-api-test"/>
+			<item value="F:\第四阶段\redis-test"/>
+			<item value="F:\第四阶段\sc-gateway-zuul"/>
+			<item value="F:\第四阶段\sc-service-goods"/>
+			<item value="F:\第四阶段\sc-webapp-portal"/>
+			<item value="F:\第四阶段\sc-eureka-register"/>
+			<item value="F:\第四阶段\sc.service.goods"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>
